@@ -66,7 +66,7 @@ export class Form extends Component {
                     {this.state.array.length>0 && this.state.array.map( (ele) => {
                         return (
                             <div id="inner_container">
-                                <h2> {ele.count} : {ele.name} || {ele.dept} || {ele.rating}</h2>
+                                <h2> {ele.count} : {ele.name} | {ele.dept} | {ele.rating}</h2>
                             </div>
                         );
                     })}
